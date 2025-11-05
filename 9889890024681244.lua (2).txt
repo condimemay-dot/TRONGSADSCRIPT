@@ -2003,7 +2003,7 @@
 
 	local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 	local Window = Fluent:CreateWindow({
-		Title = "No Name Hub [ Beta ]",
+		Title = "No Name Hub Bf [ Beta ]",
 		SubTitle = "  By TrongNguyen_123",
 		TabWidth = 160,
 		Theme = "Dark",
@@ -2079,7 +2079,10 @@
 			Title = "Server"
 		}),
 		Main = Window:AddTab({
-			Title = "Farm"
+			Title = "Tab Auto Farm"
+		}),
+		Fishing = Window:AddTab({
+			Title = "Fishing Page"
 		}),
 		Settings = Window:AddTab({
 			Title = "Farm Settings"
@@ -2120,10 +2123,10 @@
 	}
 
 	Tabs.Discord:AddButton({
-		Title = "Link Join Sever Discord",
+		Title = "Join Sever TrongNguyen Hub",
 		Description = "Đây nha anh em ( Copy rồi dán vào trình duyệt )",
 		Callback = function()
-			setclipboard(tostring("https://discord.gg/s8R9b5NfsU"))
+			setclipboard(tostring("https://discord.gg/HVmCgCfFct"))
 		end
 	})
 	local ReplicatedStorage = game:GetService("ReplicatedStorage")

@@ -2339,7 +2339,7 @@ QuestNeta = function()
 			[6] = PosQ,
 		};
 	end;
-	local Library = loadstring(game:HttpGet("https://pastefy.app/2NsMZRkm/raw"))():MakeWindow({
+	local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/condimemay-dot/Konku/refs/heads/main/redz.txt"))():MakeWindow({
     Title = "Dark X Hub",
     SubTitle = "by HoangTrong & Thienan",
     SaveFolder = "Maça.json"

@@ -1775,7 +1775,6 @@ task.spawn(function()
 	end
 end)
 
-loadstring(game:HttpGet("https://pastefy.app/cgRXe9Xh/raw"))()
 local Window = redzlib:MakeWindow({
   Title = "Dark X Hub: Blox Fruits",
   SubTitle = "Remake",
@@ -1783,7 +1782,7 @@ local Window = redzlib:MakeWindow({
 })
 
 Window:AddMinimizeButton({
-    Button = { Image = "rbxassetid://128679700951217", BackgroundTransparency = 0 },
+    Button = { Image = "rbxassetid://92242395936163", BackgroundTransparency = 0 },
     Corner = { CornerRadius = UDim.new(0, 5) },
 })
 local Tabs = {
